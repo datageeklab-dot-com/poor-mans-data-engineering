@@ -1,0 +1,10 @@
+# API Configuration
+api:
+  url: 'https://www.alphavantage.co/query?function=NEWS_SENTIMENT&topics=technology'
+  api_key: 'ZWLP3HDNDVF9DAY3'
+  timestamp_file: 'config/timestamp.yaml'  # New timestamp file
+  backfill_timestamp: '20231023T1158'
+
+# Database Configuration
+database:
+  name: 'news_data.db'
